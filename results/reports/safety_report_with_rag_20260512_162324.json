@@ -1,0 +1,26 @@
+{
+  "image": "data/test_images/test_prescription.png",
+  "timestamp": "2026-05-12T16:23:24.485798",
+  "ocr_results": {
+    "drugs_detected": [
+      "metformin",
+      "lisinopril"
+    ],
+    "confidence": 0.85,
+    "processing_time": 1.845141887664795
+  },
+  "ml_predictions": {
+    "interactions": [],
+    "total_interactions": 0,
+    "model_used": "ML Model"
+  },
+  "rag_enabled": true,
+  "risk_assessment": {
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "recommendations": [
+      "\u2705 No dangerous interactions detected",
+      "\u2705 Continue taking medications as prescribed"
+    ]
+  }
+}

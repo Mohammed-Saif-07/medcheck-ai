@@ -1,0 +1,263 @@
+{
+  "image": "data/test_images/test_prescription.png",
+  "timestamp": "2026-05-12T14:19:53.647497",
+  "ocr_results": {
+    "drugs_detected": [
+      "lisinopril",
+      "metformin",
+      "tabletaily",
+      "tbletdaily",
+      "alcohol 62 ml in 100 ml topical liquid [dasiy hand sanitizer]",
+      "lisinopril",
+      "metformin oral tablet [metforming]",
+      "metforaain",
+      "tice bcg"
+    ],
+    "confidence": 0.8,
+    "processing_time": 5.274569034576416
+  },
+  "ml_predictions": {
+    "interactions": [
+      {
+        "drug1": "lisinopril",
+        "drug2": "tabletaily",
+        "severity": "HIGH",
+        "confidence": 0.3843429684638977,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "lisinopril",
+        "drug2": "tbletdaily",
+        "severity": "HIGH",
+        "confidence": 0.3843429684638977,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "lisinopril",
+        "drug2": "alcohol 62 ml in 100 ml topical liquid [dasiy hand sanitizer]",
+        "severity": "MODERATE",
+        "confidence": 0.6043309569358826,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "lisinopril",
+        "drug2": "metformin oral tablet [metforming]",
+        "severity": "HIGH",
+        "confidence": 0.3843429684638977,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "lisinopril",
+        "drug2": "metforaain",
+        "severity": "HIGH",
+        "confidence": 0.3843429684638977,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "lisinopril",
+        "drug2": "tice bcg",
+        "severity": "HIGH",
+        "confidence": 0.40434691309928894,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "metformin",
+        "drug2": "tabletaily",
+        "severity": "HIGH",
+        "confidence": 0.7196648120880127,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "metformin",
+        "drug2": "tbletdaily",
+        "severity": "HIGH",
+        "confidence": 0.7196648120880127,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "metformin",
+        "drug2": "alcohol 62 ml in 100 ml topical liquid [dasiy hand sanitizer]",
+        "severity": "HIGH",
+        "confidence": 0.49967285990715027,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "metformin",
+        "drug2": "metformin oral tablet [metforming]",
+        "severity": "HIGH",
+        "confidence": 0.7196648120880127,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "metformin",
+        "drug2": "metforaain",
+        "severity": "HIGH",
+        "confidence": 0.49967285990715027,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "metformin",
+        "drug2": "tice bcg",
+        "severity": "HIGH",
+        "confidence": 0.7362502217292786,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "tabletaily",
+        "drug2": "tbletdaily",
+        "severity": "HIGH",
+        "confidence": 0.35317516326904297,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "tabletaily",
+        "drug2": "alcohol 62 ml in 100 ml topical liquid [dasiy hand sanitizer]",
+        "severity": "MODERATE",
+        "confidence": 0.6548142433166504,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "tabletaily",
+        "drug2": "metformin oral tablet [metforming]",
+        "severity": "MODERATE",
+        "confidence": 0.6548142433166504,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "tabletaily",
+        "drug2": "metforaain",
+        "severity": "MODERATE",
+        "confidence": 0.6548142433166504,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "tabletaily",
+        "drug2": "tice bcg",
+        "severity": "MODERATE",
+        "confidence": 0.43201935291290283,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "tbletdaily",
+        "drug2": "alcohol 62 ml in 100 ml topical liquid [dasiy hand sanitizer]",
+        "severity": "MODERATE",
+        "confidence": 0.6548142433166504,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "tbletdaily",
+        "drug2": "metformin oral tablet [metforming]",
+        "severity": "MODERATE",
+        "confidence": 0.6548142433166504,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "tbletdaily",
+        "drug2": "metforaain",
+        "severity": "MODERATE",
+        "confidence": 0.6548142433166504,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "tbletdaily",
+        "drug2": "tice bcg",
+        "severity": "MODERATE",
+        "confidence": 0.43201935291290283,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "alcohol 62 ml in 100 ml topical liquid [dasiy hand sanitizer]",
+        "drug2": "metformin oral tablet [metforming]",
+        "severity": "HIGH",
+        "confidence": 0.5099973678588867,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "alcohol 62 ml in 100 ml topical liquid [dasiy hand sanitizer]",
+        "drug2": "metforaain",
+        "severity": "HIGH",
+        "confidence": 0.5099973678588867,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "alcohol 62 ml in 100 ml topical liquid [dasiy hand sanitizer]",
+        "drug2": "tice bcg",
+        "severity": "HIGH",
+        "confidence": 0.5119464993476868,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "lisinopril",
+        "drug2": "metformin oral tablet [metforming]",
+        "severity": "HIGH",
+        "confidence": 0.3843429684638977,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "lisinopril",
+        "drug2": "metforaain",
+        "severity": "HIGH",
+        "confidence": 0.3843429684638977,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "lisinopril",
+        "drug2": "tice bcg",
+        "severity": "HIGH",
+        "confidence": 0.40434691309928894,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "metformin oral tablet [metforming]",
+        "drug2": "metforaain",
+        "severity": "MODERATE",
+        "confidence": 0.5762935876846313,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "metformin oral tablet [metforming]",
+        "drug2": "tice bcg",
+        "severity": "HIGH",
+        "confidence": 0.5119464993476868,
+        "source": "ML Model"
+      },
+      {
+        "drug1": "metforaain",
+        "drug2": "tice bcg",
+        "severity": "MODERATE",
+        "confidence": 0.43201935291290283,
+        "source": "ML Model"
+      }
+    ],
+    "total_interactions": 30,
+    "model_used": "ML Model"
+  },
+  "risk_assessment": {
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
+    "recommendations": [
+      "\ud83d\udd34 URGENT: Contact your doctor immediately",
+      "\ud83d\udd34 Do not take these medications together without medical supervision",
+      "\ud83d\udcde Call your pharmacist for immediate guidance",
+      "\u26a0\ufe0f  LISINOPRIL + TABLETAILY: Seek medical advice",
+      "\u26a0\ufe0f  LISINOPRIL + TBLETDAILY: Seek medical advice",
+      "\u26a0\ufe0f  LISINOPRIL + METFORMIN ORAL TABLET [METFORMING]: Seek medical advice",
+      "\u26a0\ufe0f  LISINOPRIL + METFORAAIN: Seek medical advice",
+      "\u26a0\ufe0f  LISINOPRIL + TICE BCG: Seek medical advice",
+      "\u26a0\ufe0f  METFORMIN + TABLETAILY: Seek medical advice",
+      "\u26a0\ufe0f  METFORMIN + TBLETDAILY: Seek medical advice",
+      "\u26a0\ufe0f  METFORMIN + ALCOHOL 62 ML IN 100 ML TOPICAL LIQUID [DASIY HAND SANITIZER]: Seek medical advice",
+      "\u26a0\ufe0f  METFORMIN + METFORMIN ORAL TABLET [METFORMING]: Seek medical advice",
+      "\u26a0\ufe0f  METFORMIN + METFORAAIN: Seek medical advice",
+      "\u26a0\ufe0f  METFORMIN + TICE BCG: Seek medical advice",
+      "\u26a0\ufe0f  TABLETAILY + TBLETDAILY: Seek medical advice",
+      "\u26a0\ufe0f  ALCOHOL 62 ML IN 100 ML TOPICAL LIQUID [DASIY HAND SANITIZER] + METFORMIN ORAL TABLET [METFORMING]: Seek medical advice",
+      "\u26a0\ufe0f  ALCOHOL 62 ML IN 100 ML TOPICAL LIQUID [DASIY HAND SANITIZER] + METFORAAIN: Seek medical advice",
+      "\u26a0\ufe0f  ALCOHOL 62 ML IN 100 ML TOPICAL LIQUID [DASIY HAND SANITIZER] + TICE BCG: Seek medical advice",
+      "\u26a0\ufe0f  LISINOPRIL + METFORMIN ORAL TABLET [METFORMING]: Seek medical advice",
+      "\u26a0\ufe0f  LISINOPRIL + METFORAAIN: Seek medical advice",
+      "\u26a0\ufe0f  LISINOPRIL + TICE BCG: Seek medical advice",
+      "\u26a0\ufe0f  METFORMIN ORAL TABLET [METFORMING] + TICE BCG: Seek medical advice"
+    ]
+  }
+}

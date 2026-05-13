@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.log
+temp_prescription.png
+data/test_images/*.jpg
+data/test_images/*.jpeg

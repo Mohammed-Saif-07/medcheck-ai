@@ -1,0 +1,17 @@
+{
+  "image": "data/test_images/test_prescription.png",
+  "timestamp": "2026-05-12T16:56:12.489256",
+  "drugs_detected": [
+    "lisinopril",
+    "metformin"
+  ],
+  "ocr_confidence": 0.85,
+  "interactions": [],
+  "safe_explanation": "\n\u2705 GOOD NEWS: No dangerous interaction found between LISINOPRIL and METFORMIN.\n\nBased on available medical data, these medications can generally be taken together safely. However:\n\n\u2022 Everyone's body is different\n\u2022 Your specific health conditions matter\n\u2022 Other medications you take may affect this\n\n\ud83d\udc8a BEST PRACTICE: Always keep your doctor and pharmacist informed about all medications, supplements, and vitamins you're taking.\n\nContinue taking your medications as prescribed.\n",
+  "risk_score": 0,
+  "risk_level": "NONE",
+  "recommendations": [
+    "\u2705 Continue as prescribed",
+    "\u2705 Inform doctor of any unusual symptoms"
+  ]
+}
