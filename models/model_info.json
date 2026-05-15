@@ -1,0 +1,24 @@
+{
+  "model": "XGBoost Drug Interaction Classifier",
+  "accuracy": 0.9997481742634097,
+  "training_samples": 15881,
+  "features": [
+    "drug1_encoded",
+    "drug2_encoded",
+    "total_reports",
+    "serious_reports",
+    "death_reports",
+    "hosp_reports",
+    "severity_score",
+    "death_score",
+    "hosp_score"
+  ],
+  "classes": [
+    "LOW",
+    "MODERATE",
+    "HIGH"
+  ],
+  "data_source": "FDA FAERS",
+  "rag_documents": 48,
+  "embedding_model": "all-MiniLM-L6-v2"
+}
